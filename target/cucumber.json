@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-22T04:32:02.183Z",
+        "line": 4,
+        "name": "Login to test Enviroment with Enviroment with one User",
+        "description": "",
+        "id": "login-to-test-enviroment-website;login-to-test-enviroment-with-enviroment-with-one-user",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat pageObjects.LoginPageObj.getTestEnvironmentText(LoginPageObj.java:34)\r\n\tat stepDefinitions.LoginSteps.i_am_on_test_enviroment_home_page(LoginSteps.java:16)\r\n\tat ✽.I am on test Enviroment Home Page(classpath:features/login.feature:5)\r\n",
+              "duration": 42000000,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I am on test Enviroment Home Page",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_am_on_test_enviroment_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click my account button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_click_my_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on login link",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_click_on_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Ienter my \u003cusername\u003e and \u003cPassword\u003e",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I am logged into my Test Enviroment account",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_am_logged_into_my_test_enviroment_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Login to test Enviroment Website",
+    "description": "",
+    "id": "login-to-test-enviroment-website",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": [
+      {
+        "name": "@test1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
